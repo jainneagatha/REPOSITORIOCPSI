@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FCF8F5;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7em;
+}
+article{
+    background-image: url(hidroginastica.png);
+    padding: 10em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 4em;
+}
+li {
+    color: #11110A;
+    font-weight: bold;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: #294B08;
+    font-size: 4em;
+}
+p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #011811;
+}
+.button{ 
+    background-color:#6AA13B;
+    border: 0;
+    color: #eeebeb;
+    padding: 1em;
+    border-radius: 0.5em;
+    font-family: 'Roboto', sans-serif;
+    
+    width: 7em;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2em;
+    text-decoration: none;
+}
+
+
+
+
